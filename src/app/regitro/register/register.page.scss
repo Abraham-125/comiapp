@@ -1,0 +1,52 @@
+/* Contenedor principal */
+
+ion-content{
+    background-color: var(--ion-color-primary)!important;
+  }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajusta la altura del contenedor a la pantalla completa */
+    background-color: var(--ion-color-primary); /* Fondo beige */
+    padding: 20px;
+}
+
+/* Tarjeta de registro */
+.card {
+    width: 100%;
+    max-width: 400px;
+    background-color: var(--ion-color-extra); /* Fondo marrón claro */
+    border-radius: 10px;
+    padding: 24px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Título */
+.card h4 {
+    color: var(--ion-color-cuartary); /* Texto blanco */
+    margin-bottom: 16px;
+}
+
+/* Estilo para los elementos ion-item */
+.input-item {
+    --highlight-color-focused: var(--ion-color-secondary); /* Color del borde en foco */
+    --background: transparent;
+    --color: var(--ion-color-tertiary); /* Texto en marrón oscuro */
+    margin-bottom: 12px;
+}
+
+/* Estilo para ion-label */
+.input-item ion-label {
+    color: var(--ion-color-tertiary); /* Color del label en marrón oscuro */
+}
+
+/* Botón de envío */
+.submit-button {
+    --background: var(--ion-color-cuartary); /* Fondo rojo oscuro */
+    --background-activated: var(--ion-color-tertiary); /* Color al presionar */
+    --color: var(--ion-color-blank); /* Texto blanco */
+    margin-top: 16px;
+}
